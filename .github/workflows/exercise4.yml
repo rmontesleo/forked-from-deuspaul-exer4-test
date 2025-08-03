@@ -1,5 +1,8 @@
 name: buildfork
 
+permissions:
+  contents: reads
+
 on:
   workflow_dispatch:
 
@@ -29,4 +32,3 @@ jobs:
         with:
           name: build
           path: build
-
